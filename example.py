@@ -4,6 +4,6 @@
 #from lxml import html
 import os
 
-print(os.environ)
+print( str( os.environ ).replace(', ','\n') )
 
 
