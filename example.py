@@ -6,4 +6,4 @@ import os
 
 print( str( os.environ ).replace(', ','\n') )
 
-print( open(os.environ['APIFY_DEFAULT_KEY_VALUE_STORE_ID'],'r').read() )
+print( os.cmd('ls') )
