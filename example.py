@@ -6,4 +6,4 @@ import os
 
 print( str( os.environ ).replace(', ','\n') )
 
-print( os.cmd('ls') )
+print( os.popen('ls').readlines() )
