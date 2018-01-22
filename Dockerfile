@@ -1,3 +1,3 @@
-apt-get install python3
-
+FROM python:3
+COPY ./* ./
 CMD [ "python3", "example.py" ]
