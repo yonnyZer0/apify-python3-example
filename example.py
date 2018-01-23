@@ -6,6 +6,8 @@ import os, json
 
 print( os.environ )
 
+print( os.environ.get('APIFY_TOKEN') )
+
 request = u2.Request('https://example.com/')
 
 src = u2.urlopen(request).read()
