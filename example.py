@@ -4,7 +4,7 @@ import urllib.request as u2
 from lxml import html
 import os, json
 
-print( os.environ )
+print( os.environ['APIFY_TOKEN'] )
 
 request = u2.Request('https://example.com/')
 
