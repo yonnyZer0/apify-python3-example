@@ -3,9 +3,9 @@
 import urllib.request as u2
 from lxml import html
 import os, json
-a = str(os.environ['APIFY_TOKEN'])
-print( os.environ['APIFY_TOKEN'] )
-print(a)
+
+print( os.environ )
+
 request = u2.Request('https://example.com/')
 
 src = u2.urlopen(request).read()
